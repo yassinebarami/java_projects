@@ -1,0 +1,12 @@
+    1  gpg --gen-key
+    2  gpg --list-secret-keys --keyid-format LONG
+    3  git config user.signingkey 1D791B6DBFE92C76
+    4  git config user.signingkey 030274EA78CB5AC6
+    5  git config user.signingkey 1D791B6DBFE92C76
+    6  git config --global user.signingkey 1D791B6DBFE92C76
+    7  cd C:/git
+    8  cd java_projects
+    9  gpg --armor --export 1D791B6DBFE92C76 >> cleGPG.txt
+   10  cat cleGPG.txt
+   11  history
+   12  history >> tp5_branches_distantes
