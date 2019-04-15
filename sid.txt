@@ -1,0 +1,12 @@
+    1  cd c:/git
+    2  gpg --gen-key
+    3  gpg -list-secret-keys --keyid-format LONG
+    4  gpg --list-secret-keys --keyid-format LONG
+    5  git config --global user.signingkey 45B0C5BA919E7A0D
+    6  cd java_projets
+    7  cd java_projects
+    8  gpg --armor --export 45B0C5BA919E7A0D
+    9  ls
+   10  gpg --armor --export 45B0C5BA919E7A0D >>  cleGPG.txt
+   11  history
+   12  history >> sid.txt
